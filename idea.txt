@@ -1,0 +1,3 @@
+chrome extension idea:
+allow user to input their address ( in baltimore city) 
+the chrome extension will generate a report of all the crimes that have happened within a one mile radius of their address in the past... []7 days []28 days or []1 year

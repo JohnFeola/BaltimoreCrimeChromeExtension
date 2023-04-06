@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Baltimore Crime Finder",
+    "version": "1.0.0",
+    "description": "Find crime incidents in Baltimore based on a specific address and radius",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; worker-src 'self'"
+    }
+  }
+  

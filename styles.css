@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    width: 400px;
+  
+  }
+
+  .timeframe-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    padding: 10px;
+    border: .5px solid darkgray;
+    border-radius: 4px;
+    margin: 0 auto 10px auto;
+    margin-bottom: 5px;
+    gap: 10px;
+  }
+
+  .container{
+    position: relative;
+  }
+
+  
+
+input[type="text"]:hover,
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+  
+  .timeframe-container input[type="radio"] {
+    margin-left: 1px;
+    margin-right: 5px;
+  }
+  
+
+  .checkCrime__button:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .checkCrime__button:active{
+    transform: scale(1.01);
+  }
+
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #address-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  #results {
+    font-size: 14px;
+  }
+  
+
+  .loading-spinner {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 100; /* Add this line to ensure the spinner is on top of other elements */
+  }
+  
+  .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+  }
+  .label-wrapper {
+    display: flex;
+    align-items: center; /* Optional: vertically align the items if they have different heights */
+  }
+  
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  
